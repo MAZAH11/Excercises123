@@ -1,0 +1,12 @@
+{
+    "name": "excercises123",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node mainServer/server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "http-proxy-middleware": "^1.0.6"
+    }
+  }
+  
