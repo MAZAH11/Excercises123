@@ -1,0 +1,12 @@
+{
+  "name": "excercise2",
+  "version": "1.0.0",
+  "main": "numOfVisits.js",
+  "scripts": {
+    "devStart":"nodemon numOfVisits.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

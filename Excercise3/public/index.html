@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number Validation</title>
+</head>
+<body>
+    <h1>Enter Your Name and Telephone Number</h1>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="phone">Phone Number (ddd-ddd-dddd):</label>
+        <input type="text" id="phone" name="phone" pattern="\d{3}-\d{3}-\d{4}" required>
+        <small>Format: 123-456-7890</small><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
