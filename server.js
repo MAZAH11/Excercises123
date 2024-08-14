@@ -8,17 +8,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Route for Exercise 1
 app.get('/exercise1', (req, res) => {
-    res.sendFile(path.join(__dirname, 'exercise1', 'index.html'));
+    res.sendFile(path.join(__dirname, 'exercise1','public', 'index.html'));
 });
 
 // Route for Exercise 2
 app.get('/exercise2', (req, res) => {
-    res.sendFile(path.join(__dirname, 'exercise2', 'index.html'));
+    res.sendFile(path.join(__dirname, 'exercise2','public','index.html'));
 });
 
 // Route for Exercise 3
 app.get('/exercise3', (req, res) => {
-    res.sendFile(path.join(__dirname, 'exercise3', 'index.html'));
+    res.sendFile(path.join(__dirname, 'exercise3','public',' index.html'));
 });
 
 // Home route
