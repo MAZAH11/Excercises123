@@ -25,7 +25,7 @@ app.use('/exercise3', createProxyMiddleware({
 
 // Serve a simple home page with links to each exercise
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname,'public', 'index.html'));
 });
 
 // Start the main server
